@@ -43,7 +43,7 @@
             </array>
         </config-file>
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-			<string>Access to your camera is required for capturing a picture to upload for Claim Submission, Profile Picture & Membership Card Scanning to autofill your membership details</string>
+			<string>Access to your camera is required for capturing a picture to upload for Claim Submission, Profile Picture and Membership Card Scanning to autofill your membership details</string>
 	</config-file>
 	    
         <config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
