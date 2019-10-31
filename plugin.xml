@@ -43,10 +43,6 @@
             </array>
         </config-file>
 	    
-	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-		<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-	    
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 			<string>Access to your camera is required for capturing a picture to upload for Claim Submission, Profile Picture and Membership Card Scanning to autofill your membership details</string>
 	</config-file>
