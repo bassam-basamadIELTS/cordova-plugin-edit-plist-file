@@ -42,6 +42,11 @@
                 <string>instagram</string>
             </array>
         </config-file>
+	    
+	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+		<string>Access to your location is required to display nearby branches and providers</string>
+	</config-file>
+	    
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
 			<string>Access to your camera is required for capturing a picture to upload for Claim Submission, Profile Picture and Membership Card Scanning to autofill your membership details</string>
 	</config-file>
@@ -58,12 +63,8 @@
 		<string>Access to your location is required to display nearby branches and providers</string>
 	</config-file>
 
-	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-		<string>Access to your location is required to display nearby branches and providers</string>
-	</config-file>
-
 	<config-file target="*-Info.plist" parent="NSFaceIDUsageDescription">
-		<string>Access to your Face ID is required to securely log you again to the app</string>
+		<string>Face ID is required to enable biometric account authentication.</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
