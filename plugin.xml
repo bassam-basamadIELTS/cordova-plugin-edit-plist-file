@@ -59,7 +59,7 @@
 		<string>Access to your location is required to display nearby branches and providers</string>
 	</config-file>
 	    
-<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
 		<string>Access to your location is required to display nearby branches and providers</string>
 	</config-file>
 	    
