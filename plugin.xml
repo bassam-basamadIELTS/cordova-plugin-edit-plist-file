@@ -58,7 +58,11 @@
 	<config-file target="*-Info.plist" parent="NSLocationUsageDescription">
 		<string>Access to your location is required to display nearby branches and providers</string>
 	</config-file>
-
+	    
+<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+		<string>Access to your location is required to display nearby branches and providers</string>
+	</config-file>
+	    
 	<config-file target="*-Info.plist" parent="NSFaceIDUsageDescription">
 		<string>Face ID is required to enable biometric account authentication.</string>
 	</config-file>
