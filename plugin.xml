@@ -59,7 +59,7 @@
 		<string>Access to your location is required to display nearby branches and providers</string>
 	</config-file>
 	    
-<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
 		<string>Access to your location is required to display nearby branches and providers</string>
 	</config-file>
 	    
@@ -73,8 +73,15 @@
 
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
 		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
-	</config-file>        
-        
+	</config-file>
+	    
+        <config-file target="*-Info.plist" parent="NSHealthShareUsageDescription">
+		<string>Access to your healthkit app is required to give you a unified view on your health and activity</string>
+	</config-file> 
+	    
+	    <config-file target="*-Info.plist" parent="NSHealthUpdateUsageDescription">
+		<string>Access to your healthkit app is required to give you a unified view on your health and activity</string>
+	</config-file>    
     </platform>
     
 </plugin>
